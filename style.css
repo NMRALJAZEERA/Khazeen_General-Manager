@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=El+Messiri:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+  }
+    a{
+    text-decoration: none;
+  }
+  
+   
+  
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+ 
+  .profile-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    height: 20%;
+    background-image: linear-gradient(90deg,#2a8ccc, 70%,#37b38a);
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+   
+
+  }
+
+  .image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 12%;
+    background-image: linear-gradient(90deg,#2a8ccc,#157cb1 2%,#37b38a);
+    padding: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .image .profile-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }    
+  
+.profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333333;
+  }
+  
+.text-data .name {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Almarai", sans-serif;
+    text-align: center;
+    color: #34368c;
+    /* margin-bottom: 13px;     */
+    /* margin-top: 15px; */
+
+  }
+.text-data .name2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Almarai", sans-serif;
+    margin-bottom: 13px;    
+    margin-top: 5px;
+    text-align: center;
+    color: #34368c;
+
+  }
+  
+  .text-data .job {
+    font-size: 15px;
+    font-weight: 400;
+    color: #34368c;
+  }
+  .text-data .number {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #34368c;
+  }
+  .text-data .email {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #34368c;
+  }
+
+  .redd{
+    margin-top: 15px;
+  }
+.buttons .button {
+  color: #fff;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* align-items: center; */
+  font-size: 19px;
+  font-weight: bold;
+  border: none;
+  border-radius: 24px;
+  margin: 0 10px;
+  margin-top: 30px;
+  padding: 8px 24px;
+  /* background-image: linear-gradient(90deg,#34368c,#6f3d90); */
+  background-color:#2a8ccc;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+   -ms-grid-row-align: center;
+   -ms-grid-column-align: center;
+   place-self: center;
+
+}
+
+.buttons .button:hover {
+  background-color: #34368c;
+}
+
+
+.profile-card .media-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+.media-buttons .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+  }
+  .buttons h3{
+    text-align: center;
+    color: #34368c;
+    margin-top: 18px;
+    font-family: "Almarai", sans-serif;
+
+  }
+  .buttons a{
+    text-decoration: none;
+    color: #34368c;
+    margin-top: 12px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    
+  }
